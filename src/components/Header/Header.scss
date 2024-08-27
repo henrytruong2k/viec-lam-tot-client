@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #2461CF;
+    color: #fff;
+
+    i {
+        font-weight: 600;
+        font-size: 16px;
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    .logo {
+        width: 188px;
+        height: 35px;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        margin: 0 20px;
+        background-color: #fff;
+        border-radius: 4px;
+        overflow: hidden;
+
+        input {
+            border: none;
+            padding: 10px;
+            flex: 1;
+            outline: none;
+        }
+
+        button {
+            background-color: #F9A825;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
+
+            i {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .news, .account, .apply {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .apply {
+        background-color: #fbbd04;
+        color: white;
+        border: none;
+        padding: 8px 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        text-transform: uppercase;
+        p {
+            margin: 0;
+        }
+    }
+
+    .search-bar button:hover, .apply:hover {
+        background-color: #fe9900;
+    }
+}
+
